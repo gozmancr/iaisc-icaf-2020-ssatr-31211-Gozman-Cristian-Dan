@@ -9,7 +9,7 @@ import net.sourceforge.jFuzzyLogic.rule.Variable;
 public class TippingClass {
 
     public static void main(String[] args) throws Exception {
-        String filename = "tipper.fcl";
+        String filename = "tipper1.fcl";
         FIS fis = FIS.load(filename, true);
 
         if (fis == null) {
